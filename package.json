@@ -1,0 +1,35 @@
+{
+  "name": "fullstackopen-part4",
+  "version": "1.0.0",
+  "description": "fullstackopen-part4",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facunob/fullstackopen-part4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facunob/fullstackopen-part4/issues"
+  },
+  "homepage": "https://github.com/facunob/fullstackopen-part4#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "node": "^17.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
