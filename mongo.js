@@ -7,5 +7,5 @@ if(!password) {
 }
 
 
-const mongoUrl = `mongodb+srv://41489054:${password}@cluster0.ugts7.mongodb.net/blog-db?retryWrites=true&w=majority`;
+const mongoUrl = `mongodb+srv://giorgi44:${password}@cluster0.ugts7.mongodb.net/blog-db?retryWrites=true&w=majority`;
 mongoose.connect(mongoUrl);
